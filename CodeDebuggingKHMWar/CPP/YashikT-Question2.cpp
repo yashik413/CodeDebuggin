@@ -10,7 +10,7 @@ int main(){
 	{
 	case 'a':				// added colon, case value should be constant changed it to 'a'
 		n=num;
-		while(n!=0)
+		while(n!=0)			// changed equal to not equal to
 		{
 			n=n/10;
 			d++;
@@ -22,7 +22,7 @@ int main(){
 			a=a*pow(r,d);		// sqr changed to pow, removed Equal sign to make it assign
 			n=n/10;
 		}
-		cout<<a<<"\n";  
+		cout<<a/pow(10,d)<<"\n";  	// added a/pow(10,d)
 		break;				// added break
 	case 'p':				// added colon, case value should be constant changed it to 'p'
 		n=num;
